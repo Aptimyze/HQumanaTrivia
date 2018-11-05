@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "prompt": "Mountain Dew was originally slang for:",
+    "choices": [
+      "Coffee",
+      "Red Bull",
+      "Whiskey",
+      "Moonshine"
+    ],
+    "answer": "Moonshine",
+    "links": [
+      {
+        "href": "www.google.com",
+        "text": "LMGTFY"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "prompt": "What is the scientific name of the common potato?:",
+    "choices": [
+      "Solanum tuberosum L.",
+      "Mr. Potato",
+      "Potato otatop",
+      "Mrs. Potato"
+    ],
+    "answer": "Solanum tuberosum L.",
+    "links": [
+      {
+        "href": "www.google.com",
+        "text": "LMGTFY"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "prompt": "In humans, what is the only internal organ capable of regenerating lost tissue?",
+    "choices": [
+      "Heart",
+      "Bladder",
+      "Kidney",
+      "Liver"
+    ],
+    "answer": "Liver",
+    "links": [
+      {
+        "href": "www.google.com",
+        "text": "LMGTFY"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "prompt": "Which of these REST actions is *mismatched* to its CRUD verb?",
+    "choices": [
+      "CREATE - INSERT",
+      "GET - SELECT",
+      "PATCH - UPDATE",
+      "DESTROY - DELETE"
+    ],
+    "answer": "CREATE - INSERT",
+    "links": [
+      {
+        "href": "www.google.com",
+        "text": "LMGTFY"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "prompt": "What dog breed is half-dog tall and a dog-and-a-half long?",
+    "choices": [
+      "German Sheperd",
+      "CatDog",
+      "Dachshund",
+      "Labrador"
+    ],
+    "answer": "Dachshund",
+    "links": [
+      {
+        "href": "www.google.com",
+        "text": "LMGTFY"
+      }
+    ]
+  }
+]
