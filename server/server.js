@@ -6,36 +6,36 @@ const express = require('express');
 const app = express();
 const http = require('http').Server(app);
 const io = require('socket.io')(http);
-// const port = process.env.PORT || 4000;
+const port = process.env.PORT || 4000;
 const bodyParser = require('body-parser');
 const fs = require('fs');
 
 ///////////added
-const compression = require('compression');
-const morgan = require('morgan');
-const path = require('path');
-const normalizePort = port => parseInt(port, 10);
-const port = normalizePort(process.env.PORT || 4000);
-const dev = app.get('env') !== 'production';
+// const compression = require('compression');
+// const morgan = require('morgan');
+// const path = require('path');
+// const normalizePort = port => parseInt(port, 10);
+// const port = normalizePort(process.env.PORT || 4000);
+// const dev = app.get('env') !== 'production';
 ///////////
 
 ///////////added
-if (!dev) {
-    app.disable('x-powered-by');
-    app.use(compression());
-    app.use(morgan('common'));
+// if (!dev) {
+//     app.disable('x-powered-by');
+//     app.use(compression());
+//     app.use(morgan('common'));
 
-    app.use(express.static(path.resolve(__dirname, 'build')));
+//     app.use(express.static(path.resolve(__dirname, 'build')));
 
-    //'*' every request that comes in.
-    app.get('*', (req, res) => {
-        res.sendFile(path.resolve(__dirname, 'build', 'index.html'))
-    });
-};
+//     //'*' every request that comes in.
+//     app.get('*', (req, res) => {
+//         res.sendFile(path.resolve(__dirname, 'build', 'index.html'))
+//     });
+// };
 
-if (dev) {
-    app.use(morgan('dev'))
-};
+// if (dev) {
+//     app.use(morgan('dev'))
+// };
 //////////
 
 let questions = [];
